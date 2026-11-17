@@ -1,0 +1,31 @@
+<p class="kicker">Reader</p>
+<h1 class="page-title">Vaaran</h1>
+<p class="page-intro">The Vaaran of Bhai Gurdas Ji, read by ang. The reader offers Padchhed or Larivaar, English and transliteration, and a citation for every line.</p>
+
+<div class="reader" data-reader="ang" data-source="B" data-source-name="Bhai Gurdas Ji Vaaran" data-max-ang="40">
+  <div class="reader-bar">
+    <div class="ang-nav">
+      <button type="button" class="btn" data-ang-prev>Previous</button>
+      <label>Ang <input type="number" min="1" max="40" step="1" inputmode="numeric" data-ang-input value="1" aria-label="Ang number"></label>
+      <button type="button" class="btn" data-ang-next>Next</button>
+      <span class="muted" data-ang-total>Ang 1</span>
+    </div>
+    <div class="style-toggles">
+      <div class="seg" role="group" aria-label="Gurmukhi style">
+        <button type="button" data-mode="padchhed" aria-pressed="true">Padchhed</button>
+        <button type="button" data-mode="larivaar" aria-pressed="false">Larivaar</button>
+      </div>
+      <label class="toggle"><input type="checkbox" data-toggle="english"> English</label>
+      <label class="toggle"><input type="checkbox" data-toggle="translit"> Transliteration</label>
+    </div>
+  </div>
+
+  <!--PERSPECTIVES-->
+
+  <div data-notice></div>
+  <div class="reader-status" data-status role="status" aria-live="polite"></div>
+  <div class="reader-head" data-reader-head></div>
+  <div class="reader-lines" data-lines></div>
+</div>
+
+<p class="note">Source: BaniDB source <code>B</code> (Bhai Gurdas Ji Vaaran). Ang numbering follows BaniDB, not the printed vaar numbering.</p>

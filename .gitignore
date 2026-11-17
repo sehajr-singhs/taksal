@@ -1,0 +1,7 @@
+TASK.md
+RESULT.md
+.venv/
+__pycache__/
+*.aux
+*.log
+*.out
