@@ -1,336 +1,73 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Digital Pothis · Taksal</title>
-<meta name="description" content="Real images from Wikimedia Commons: pothi manuscript scans with metadata and next/prev navigation.">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pothis · Taksal</title>
+<meta name="description" content="Pothis · Taksal">
 <meta name="theme-color" content="#ebe8e1">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Gurmukhi:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/site.css">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Gurmukhi:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/taksal.css">
 </head>
-<body data-page="pothis">
+<body>
 <a class="skip" href="#main">Skip to content</a>
-<header class="site-head">
-  <div class="head-inner">
-    <div class="head-left">
-      <div class="hist">
-        <button type="button" class="hbtn" aria-label="Go back" title="Back">←</button>
-        <button type="button" class="hbtn" aria-label="Go forward" title="Forward">→</button>
-      </div>
-      <nav class="crumb" aria-label="Breadcrumb"><span>Home / Hukamnama</span></nav>
-    </div>
-    <div class="title-block" style="display: flex; align-items: baseline; gap: 12px;">
-      <div>
-        <h1 class="hero-title">Taksal</h1>
-        <p class="hero-gurmukhi">ਟਕਸਾਲ <span class="hero-roman">(ṭaksāl)</span></p>
-        <p class="hero-quote" lang="pa-Guru">ਘੜੀਐ ਸਬਦੁ ਸਚੀ ਟਕਸål ਸ਼?</p>
-        <p class="hero-translation">In this true mint, the Word of the Shabad is forged.</p>
-        <p class="hero-ref">Japji Sahib, Pauri 38</p>
-      </div>
-      <div class="coin-wrap" style="margin-left: 20px; width: 140px; height: 140px;">
-        <svg class="coin" viewBox="0 0 160 160" role="img" aria-label="Taksal coin mark: a silver rupee style coin with Gurmukhi text around the rim and a leaf at the centre">
-  <defs>
-    <path id="coinArcTop" d="M 22 80 A 58 58 0 0 1 138 80"></path>
-    <path id="coinArcBottom" d="M 138 80 A 58 58 0 0 1 22 80"></path>
-  </defs>
-  <circle cx="80" cy="80" r="74" fill="none" stroke="currentColor" stroke-width="1.6"></circle>
-  <circle cx="80" cy="80" r="68" fill="none" stroke="#c8902a" stroke-width="1"></circle>
-  <circle cx="80" cy="80" r="47" fill="none" stroke="currentColor" stroke-width="1.2"></circle>
-  <circle cx="80" cy="80" r="42" fill="none" stroke="#c8902a" stroke-width="0.7" stroke-dasharray="1 4"></circle>
-  <text class="coin-rim" font-size="9.2" letter-spacing="2.2" fill="currentColor">
-    <textPath href="#coinArcTop" startOffset="50%" text-anchor="middle">ਟਕਸål · ਸਚੀ ਟਕਸål</textPath>
-  </text>
-  <text class="coin-rim" font-size="7.6" letter-spacing="3.6" fill="currentColor">
-    <textPath href="#coinArcBottom" startOffset="50%" text-anchor="middle">TAKSAL</textPath>
-  </text>
-  <path d="M80 52 C 94 62, 98 82, 80 104 C 62 82, 66 62, 80 52 Z" fill="none" stroke="currentColor" stroke-width="1.4"></path>
-  <path d="M80 57 L80 97" fill="none" stroke="currentColor" stroke-width="1"></path>
-  <path d="M80 70 L72.5 76 M80 70 L87.5 76 M80 81 L71.5 87 M80 81 L88.5 87" fill="none" stroke="currentColor" stroke-width="0.8"></path>
-  <circle cx="80" cy="80" r="2.1" fill="#c8902a"></circle>
-  <circle cx="80" cy="14.5" r="1.6" fill="currentColor"></circle>
-  <circle cx="80" cy="145.5" r="1.6" fill="currentColor"></circle>
-  <circle cx="14.5" cy="80" r="1.6" fill="currentColor"></circle>
-  <circle cx="145.5" cy="80" r="1.6" fill="currentColor"></circle>
-</svg>
-      </div>
-    </div>
-    <div class="head-right">
-        <a class="social" href="https://instagram.com" aria-label="Taksal on Instagram" title="Instagram"><svg viewBox="0 0 18 18" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true"><rect x="2.5" y="2.5" width="13" height="13" rx="4"></rect><circle cx="9" cy="9" r="3.1"></circle><circle cx="13.1" cy="4.9" r="0.8" fill="currentColor" stroke="none"></circle></svg></a>
-        <a class="social" href="https://x.com" aria-label="Taksal on X" title="X"><svg viewBox="0 0 18 18" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true"><path d="M3 3l12 12"></path><path d="M15 3L3 15"></path></svg></a>
-        <a class="social" href="https://facebook.com" aria-label="Taksal on Facebook" title="Facebook"><svg viewBox="0 0 18 18" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true"><path d="M11.2 15.5V9.6h2l.3-2.3h-2.3V5.8c0-.7.2-1.1 1.2-1.1h1.2V2.6c-.2 0-.9-.1-1.8-.1-1.8 0-3 1.1-3 3.1v1.7H6.9v2.3h1.9v5.9z" fill="currentColor" stroke="none"></path></svg></a>
-        <a class="social" href="https://youtube.com" aria-label="Taksal on YouTube" title="YouTube"><svg viewBox="0 0 18 18" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true"><rect x="1.6" y="4" width="14.8" height="10" rx="2.6"></rect><path d="M7.6 6.8l4.2 2.2-4.2 2.2z" fill="currentColor" stroke="none"></path></svg></a>
-      <a class="signin" href="signin.html">Sign in</a>
-    </div>
-  </div>
-</header>
 <div class="wrap">
-  <div class="shell">
-    <nav class="side" aria-label="Sections">
-  <span class="side-label">Sections</span>
-  <ul>
-    <li><a href="index.html" class="active" aria-current="page">Home</a></li>
-    <li><a href="hukamnama.html">Hukamnama</a></li>
-    <li><a href="guru-granth-sahib.html">Sri Guru Granth Sahib</a></li>
-    <li><a href="dasam-granth.html">Dasam Granth</a></li>
-    <li><a href="vaaran.html">Vaaran</a></li>
-    <li><a href="pothis.html">Pothis</a></li>
-    <li><a href="library.html">Library</a></li>
-    <li><a href="model.html">Taksal (the model)</a></li>
-    <li><a href="about.html">About</a></li>
-  </ul>
-</nav>
-    <main id="main">
-<section class="hero">
-  <h1 class="hero-title">Taksal</h1>
-  <p class="hero-gurmukhi">ਟਕਸਾਲ <span class="hero-roman">(ṭaksāl)</span></p>
-  <p class="hero-quote" lang="pa-Guru">ਘੜੀਐ ਸਬਦੁ ਸਚੀ ਟਕਸål ਸ਼?</p>
-  <p class="hero-translation">In this true mint, the Word of the Shabad is forged.</p>
-  <p class="hero-ref">Japji Sahib, Pauri 38</p>
-  <div class="coin-wrap">
-    <svg class="coin" viewBox="0 0 160 160" role="img" aria-label="Taksal coin mark: a silver rupee style coin with Gurmukhi text around the rim and a leaf at the centre">
-  <defs>
-    <path id="coinArcTop" d="M 22 80 A 58 58 0 0 1 138 80"></path>
-    <path id="coinArcBottom" d="M 138 80 A 58 58 0 0 1 22 80"></path>
-  </defs>
-  <circle cx="80" cy="80" r="74" fill="none" stroke="currentColor" stroke-width="1.6"></circle>
-  <circle cx="80" cy="80" r="68" fill="none" stroke="#c8902a" stroke-width="1"></circle>
-  <circle cx="80" cy="80" r="47" fill="none" stroke="currentColor" stroke-width="1.2"></circle>
-  <circle cx="80" cy="80" r="42" fill="none" stroke="#c8902a" stroke-width="0.7" stroke-dasharray="1 4"></circle>
-  <text class="coin-rim" font-size="9.2" letter-spacing="2.2" fill="currentColor">
-    <textPath href="#coinArcTop" startOffset="50%" text-anchor="middle">ਟਕਸål · ਸਚੀ ਟਕਸål</textPath>
-  </text>
-  <text class="coin-rim" font-size="7.6" letter-spacing="3.6" fill="currentColor">
-    <textPath href="#coinArcBottom" startOffset="50%" text-anchor="middle">TAKSAL</textPath>
-  </text>
-  <path d="M80 52 C 94 62, 98 82, 80 104 C 62 82, 66 62, 80 52 Z" fill="none" stroke="currentColor" stroke-width="1.4"></path>
-  <path d="M80 57 L80 97" fill="none" stroke="currentColor" stroke-width="1"></path>
-  <path d="M80 70 L72.5 76 M80 70 L87.5 76 M80 81 L71.5 87 M80 81 L88.5 87" fill="none" stroke="currentColor" stroke-width="0.8"></path>
-  <circle cx="80" cy="80" r="2.1" fill="#c8902a"></circle>
-  <circle cx="80" cy="14.5" r="1.6" fill="currentColor"></circle>
-  <circle cx="80" cy="145.5" r="1.6" fill="currentColor"></circle>
-  <circle cx="14.5" cy="80" r="1.6" fill="currentColor"></circle>
-  <circle cx="145.5" cy="80" r="1.6" fill="currentColor"></circle>
-</svg>
-  </div>
-</section>
-
-<section class="section">
-  <p class="kicker">Digital Pothis</p>
-  <h2>Pothi manuscript viewer</h2>
-  <p class="lede">Real images from Wikimedia Commons: pothi (manuscript) scans. Each pothi has multiple pages, with image on the left and metadata/transcription on the right. Navigate next/previous through a pothi's pages.</p>
-  <p class="lede muted">Images are openly licensed from Wikimedia Commons. Panjab Digital Library images are LINK ONLY - never downloaded or hosted.</p>
-
-  <div id="pothi-viewer" class="pothi-viewer">
-    <div class="pothi-nav">
-      <button class="pothi-nav-btn prev" aria-label="Previous page" title="Previous">← Prev</button>
-      <button class="pothi-nav-btn next" aria-label="Next page" title="Next">Next →</button>
-    </div>
-    <div class="pothi-image-panel">
-      <img class="pothi-main-img" src="https://commons.wikimedia.org/wiki/Special:FilePath/Hukamnama_1.jpg?width=800" alt="Hukamnama manuscript page 1" loading="lazy">
-      <div class="pothi-image-caption">Hukamnama manuscript scan (Wikimedia Commons)</div>
-    </div>
-    <div class="pothi-metadata-panel">
-      <div class="pothi-metadata">
-        <h3>Metadata</h3>
-        <p><strong>Title:</strong> Hukamnama scan 1</p>
-        <p><strong>Description:</strong> Pothi/hukamnama manuscript page from Wikimedia Commons</p>
-        <p><strong>Author:</strong> Various Wikimedia Commons contributors</p>
-        <p><strong>License:</strong> CC BY-SA 4.0</p>
-        <p><strong>File page:</strong> <a href="https://commons.wikimedia.org/wiki/File:Hukamnama_1.jpg" target="_blank">View on Wikimedia Commons</a></p>
-      </div>
-      <div class="pothi-navigation">
-        <p>Page <span id="pothi-page-num">1</span> of <span id="pothi-total-pages">50</span></p>
-        <button class="pothi-nav-btn small-prev" aria-label="Previous page">←</button>
-        <button class="pothi-nav-btn small-next" aria-label="Next page">→</button>
-      </div>
-    </div>
-  </div>
-
-  <p class="note muted">Images linked to Wikimedia Commons file pages only. Taksal does not host or download any manuscript images.</p>
-</section>
-
-<section class="section">
-  <p class="kicker">Browse pothis</p>
-  <div class="rows">
-    <a class="row" href="#">
-      <span class="row-title">Pothi viewer</span>
-      <span class="row-desc">View digital pothi manuscript scans from Wikimedia Commons with metadata and next/prev navigation.</span>
-      <span class="row-go">View</span>
-    </a>
-  </div>
-</section>
+<div class="topbar">
+  <div class="left"><span class="hist"><button type="button" data-hist="back" aria-label="Back">←</button><button type="button" data-hist="forward" aria-label="Forward">→</button></span><span class="path"><a href="index.html">Home</a> / Pothis</span></div>
+  <div class="right"><span class="socials" style="display:flex;gap:10px"><a href="https://instagram.com" aria-label="Taksal on Instagram" title="Instagram"><svg viewBox="0 0 18 18" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="2.5" width="13" height="13" rx="4"/><circle cx="9" cy="9" r="3.1"/></svg></a><a href="https://x.com" aria-label="Taksal on X" title="X"><svg viewBox="0 0 18 18" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 3.5l11 11M14.5 3.5l-11 11"/></svg></a><a href="https://facebook.com" aria-label="Taksal on Facebook" title="Facebook"><svg viewBox="0 0 18 18" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 15.5V9.5h2l.3-2.2H11V5.9c0-.6.2-1 1.1-1h1.2V2.9c-.2 0-.9-.1-1.7-.1-1.7 0-2.9 1-2.9 2.9v1.6H6.8v2.2h1.9v6"/></svg></a><a href="https://youtube.com" aria-label="Taksal on YouTube" title="YouTube"><svg viewBox="0 0 18 18" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><rect x="1.8" y="4.2" width="14.4" height="9.6" rx="2.4"/><path d="M7.7 6.9l3.9 2.1-3.9 2.1z"/></svg></a></span><a href="signin.html">Sign in</a></div>
+</div>
+<header class="site compact">
+  <div><a class="brand" href="index.html">Taksal</a><p class="brand-sub" lang="pa">ਟਕਸਾਲ <span>(ṭaksāl)</span></p></div>
+  <pre class="coin small" role="img" aria-label="Taksal's mark, a Ranjit Singh rupee">                          : :.....
+                  .::--:::**+**-==-::::.
+              .::====+--===+++-.===.:-**=-:.
+           .==+:-:::--:.::::..:=*===+=#-:-+*+-
+         -=+*:#+--:::::--==+***=#*==#=*#**#-*#*=.
+       :+*+=:.=**#%########*=-:.-##*=:-+++::--+**-
+     .:-=::::-:.::::-::::.::::--:::::----------=+++=
+    =***##%##########*#####%%%%%@@@@@@@@@@%%%%%#+=++-
+   :====-==-=--=+++++++===+====*:::-=*+=+++-::..-=:-=*
+  .*=:-:.. ..:... -=.   ....=-+-::.-=+*=:++-:-=++#+*#-#
+  ++==+==.-===-::-+=.--++==+-++-==++:=+=:.:=-=*-::=#-:+
+ =+=**-==:-==----==--=+=::-..:.===-+:-%-=-*@#*+++*#*#*=*
+.**+==-+==--=--===:-=+-:---:=+=---++::#@@@%=+#%%%#*++=-*
+==::==-#=:-::-===*-::--++=-=+:==-:*=--=:=-::==... .=+*=+
+=*:.++-:*=+===+===%#**#+:=*+==:+=-+=:==..::-*-.::+==++:+
+:*=--*=:++-++++-+.-+*-=*+-*% :--+=::+%-:-*. ..-=**=-.+++
+ *=:=*:+*:=*++#..::++=*-:.+@*:...-+%@=-===-::-#*=*+--#%@
+ -+:=-.-***++-#@*#%*:-:---+#@@@@@@@*--*#+.::=##.:=**#@#
+  ++=::..:-+--:+*+-:=::*=++-:=+=+=--+#+#@@%%@#-:. .:*=#
+   #+=+==+*%+-==+==**+#++*==+=::+***+:.:+***=--++**#**
+    ##::==:=#*+==+=-:=-:::--=---::......    ...:-=*%@
+     -#+:.::...::.....:::::------==++++**+******#@@@
+       +##*#%#%%%%%%%@@@@@@@@@@@@@@@%%%%#*#**#@@@@
+        .*@#+*+====-======+==-:----::::::+++%@@@@
+          :*%*-- .::-=+*+*==+*=::-+=.=*%@@@@@@%
+            .-=###===-=+-.-:==***###@@@@@@@#
+                .-=*##*==+#+##*%@###%#*+-
+                     .::::::::::...</pre>
+</header>
+<nav class="main" aria-label="Sections"><a href="search.html">Search</a><a href="hukamnama.html">Hukamnama</a><a href="guru-granth-sahib.html">Guru Granth Sahib</a><a href="dasam-granth.html">Dasam Granth</a><a href="vaaran.html">Vaaran</a><a href="library.html">Library</a><a href="pothis.html" class="active">Pothis</a><a href="model.html">Taksal (the model)</a><a href="about.html">About</a></nav>
+<main id="main">
+<h1 class="page">Pothis</h1>
+<p class="note">Digitised hand-written birs, shown in Internet Archive's viewer. Both are marked public domain there.</p>
+<div class="sec-label">Sri Guru Granth Sahib, 1700s bir</div>
+<iframe class="viewer" src="https://archive.org/embed/puratan_guru_granth_sahib_1700s" title="1700s Guru Granth Sahib manuscript" loading="lazy" allowfullscreen></iframe>
+<p class="note"><a href="https://archive.org/details/puratan_guru_granth_sahib_1700s">archive.org/details/puratan_guru_granth_sahib_1700s</a></p>
+<div class="sec-label">Dasam Granth, Patna misal bir, 1765</div>
+<iframe class="viewer" src="https://archive.org/embed/patna_misal_dasam_1765" title="Patna misal Dasam Granth, 1765" loading="lazy" allowfullscreen></iframe>
+<p class="note"><a href="https://archive.org/details/patna_misal_dasam_1765">archive.org/details/patna_misal_dasam_1765</a></p>
+<div class="sec-label">More, link only</div>
+<p class="note">The <a href="https://www.panjabdigilib.org/">Panjab Digital Library</a> holds thousands of manuscripts. Its images are not ours to host, so Taksal links to it. Help transcribing is welcome: <a href="mailto:sehajrsinghs@gmail.com?subject=Taksal%20transcription">write to us</a>.</p>
 </main>
-
-<footer class="site-foot">
-  <div class="foot-inner">
-    <div class="foot-left">
-      <a class="reach" href="mailto:sehajrsinghs@gmail.com?subject=Taksal">Reach out to the team</a>
-    </div>
-    <div class="foot-mid">
-      <div>Sehaj Randhir Singh</div>
-      <div class="muted">Incorporating as a 501(c)(3) nonprofit</div>
-    </div>
-    <div class="foot-right muted">
-      <div>Not affiliated with Damdami Taksal.</div>
-      <div>Powered by BaniDB, Surya OCR, open VLMs and Gemma (planned).</div>
-    </div>
-  </div>
+<footer class="site">
+  <div><a class="reach" href="mailto:sehajrsinghs@gmail.com?subject=Taksal">Reach out to the team</a></div>
+  <div class="mid"><b>Sehaj Randhir Singh</b>Incorporating as a 501(c)(3) nonprofit</div>
+  <div class="right">Not affiliated with Damdami Taksal<br>Sources: BaniDB (Khalis Foundation), Internet Archive, Wikimedia Commons</div>
 </footer>
-
-<script>
- // Pothi viewer with real Wikimedia Commons images
- // Image data: each entry has title, URL, author, license, and page count
- const pothiData = [
-   {
-     id: 1,
-     title: "Hukamnama scan 1",
-     url: "https://commons.wikimedia.org/wiki/File:Hukamnama_1.jpg",
-     author: "Various Wikimedia Commons contributors",
-     license: "CC BY-SA 4.0",
-     totalPages: 50
-   },
-   {
-     id: 2,
-     title: "Hukamnama scan 2",
-     url: "https://commons.wikimedia.org/wiki/File:Hukamnama_2.jpg",
-     author: "Various Wikimedia Commons contributors",
-     license: "CC BY-SA 4.0",
-     totalPages: 50
-   },
-   {
-     id: 3,
-     title: "Hukamnama scan 3",
-     url: "https://commons.wikimedia.org/wiki/File:Hukamnama_3.jpg",
-     author: "Various Wikimedia Commons contributors",
-     license: "CC BY-SA 4.0",
-     totalPages: 50
-   },
-   {
-     id: 4,
-     title: "Hukamnama scan 4",
-     url: "https://commons.wikimedia.org/wiki/File:Hukamnama_4.jpg",
-     author: "Various Wikimedia Commons contributors",
-     license: "CC BY-SA 4.0",
-     totalPages: 50
-   },
-   {
-     id: 5,
-     title: "Guru Granth Sahib manuscript page 1",
-     url: "https://commons.wikimedia.org/wiki/File:GGS_manuscript_01.jpg",
-     author: "Various Wikimedia Commons contributors",
-     license: "CC BY-SA 4.0",
-     totalPages: 50
-   },
-   {
-     id: 6,
-     title: "Guru Granth Sahib manuscript page 2",
-     url: "https://commons.wikimedia.org/wiki/File:GGS_manuscript_02.jpg",
-     author: "Various Wikimedia Commons contributors",
-     license: "CC BY-SA 4.0",
-     totalPages: 50
-   },
-   {
-     id: 7,
-     title: "Vaaran illustration 1",
-     url: "https://commons.wikimedia.org/wiki/File:Vaaran_illustration_01.jpg",
-     author: "Various Wikimedia Commons contributors",
-     license: "CC BY-SA 4.0",
-     totalPages: 50
-   },
-   {
-     id: 8,
-     title: "Vaaran illustration 2",
-     url: "https://commons.wikimedia.org/wiki/File:Vaaran_illustration_02.jpg",
-     author: "Various Wikimedia Commons contributors",
-     license: "CC BY-SA 4.0",
-     totalPages: 50
-   }
- ];
-
- let currentPothi = 0;
- let currentPage = 1;
-
- // Initialize viewer with first pothi
- function initViewer() {
-   const pothi = pothiData[currentPothi];
-   const img = document.querySelector('.pothi-main-img');
-   const caption = document.querySelector('.pothi-image-caption');
-   const pageNum = document.getElementById('pothi-page-num');
-   const totalPages = document.getElementById('pothi-total-pages');
-
-   img.src = pothi.url + '?width=800';
-   img.alt = pothi.title;
-   caption.textContent = pothi.title;
-   pageNum.textContent = currentPage;
-   totalPages.textContent = pothi.totalPages;
- }
-
- // Navigate to next page
- function nextPage() {
-   const pothi = pothiData[currentPothi];
-   if (currentPage < pothi.totalPages) {
-     currentPage++;
-     document.getElementById('pothi-page-num').textContent = currentPage;
-   }
- }
-
- // Navigate to previous page
- function prevPage() {
-   if (currentPage > 1) {
-     currentPage--;
-     document.getElementById('pothi-page-num').textContent = currentPage;
-   }
- }
-
-// Navigate to next pothi
- function nextPothi() {
-   if (currentPothi < pothiData.length - 1) {
-     currentPothi++;
-     currentPage = 1;
-     initViewer();
-   }
- }
-
-// Navigate to previous pothi
- function prevPothi() {
-   if (currentPothi > 0) {
-     currentPothi--;
-     currentPage = 1;
-     initViewer();
-   }
- }
-
-// Add event listeners
-document.addEventListener('DOMContentLoaded', function() {
-   initViewer();
-
-   // Nav buttons in image panel
-   document.querySelectorAll('.pothi-nav-btn').forEach(btn => {
-     btn.addEventListener('click', function() {
-       if (this.classList.contains('next')) {
-         nextPage();
-       } else if (this.classList.contains('prev')) {
-         prevPage();
-       }
-     });
-   });
-
-   // Small nav buttons
-   document.querySelectorAll('.small-prev, .small-next').forEach(btn => {
-     btn.addEventListener('click', function() {
-       if (this.classList.contains('next')) {
-         nextPage();
-       } else {
-         prevPage();
-       }
-     });
-   });
-});
-</script>
-
+</div>
+<script src="assets/taksal.js" defer></script>
 </body>
 </html>

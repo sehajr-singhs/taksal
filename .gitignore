@@ -5,3 +5,6 @@ __pycache__/
 *.aux
 *.log
 *.out
+tools/_work/
+node_modules/
+test-results/

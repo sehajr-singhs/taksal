@@ -1,367 +1,73 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Taksal (the model) · Taksal</title>
-<meta name="description" content="A search console over the sources today. The cited model is in development.">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Taksal (the model)</title>
+<meta name="description" content="Taksal (the model)">
 <meta name="theme-color" content="#ebe8e1">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Gurmukhi:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/site.css">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Gurmukhi:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/taksal.css">
 </head>
-<body data-page="model">
+<body>
 <a class="skip" href="#main">Skip to content</a>
-<header class="site-head">
-  <div class="head-inner">
-    <div class="head-left">
-      <div class="hist">
-        <button type="button" class="hbtn" aria-label="Go back" title="Back">←</button>
-        <button type="button" class="hbtn" aria-label="Go forward" title="Forward">→</button>
-      </div>
-      <nav class="crumb" aria-label="Breadcrumb"><span>Home / Hukamnama</span></nav>
-    </div>
-    <div class="title-block" style="display: flex; align-items: baseline; gap: 12px;">
-      <div>
-        <h1 class="hero-title">Taksal</h1>
-        <p class="hero-gurmukhi">ਟਕਸਾਲ <span class="hero-roman">(ṭaksāl)</span></p>
-        <p class="hero-quote" lang="pa-Guru">ਘੜੀਐ ਸਬਦੁ ਸਚੀ ਟਕਸål ਸ਼?</p>
-        <p class="hero-translation">In this true mint, the Word of the Shabad is forged.</p>
-        <p class="hero-ref">Japji Sahib, Pauri 38</p>
-      </div>
-      <div class="coin-wrap" style="margin-left: 20px; width: 140px; height: 140px;">
-        <svg class="coin" viewBox="0 0 160 160" role="img" aria-label="Taksal coin mark: a silver rupee style coin with Gurmukhi text around the rim and a leaf at the centre">
-  <defs>
-    <path id="coinArcTop" d="M 22 80 A 58 58 0 0 1 138 80"></path>
-    <path id="coinArcBottom" d="M 138 80 A 58 58 0 0 1 22 80"></path>
-  </defs>
-  <circle cx="80" cy="80" r="74" fill="none" stroke="currentColor" stroke-width="1.6"></circle>
-  <circle cx="80" cy="80" r="68" fill="none" stroke="#c8902a" stroke-width="1"></circle>
-  <circle cx="80" cy="80" r="47" fill="none" stroke="currentColor" stroke-width="1.2"></circle>
-  <circle cx="80" cy="80" r="42" fill="none" stroke="#c8902a" stroke-width="0.7" stroke-dasharray="1 4"></circle>
-  <text class="coin-rim" font-size="9.2" letter-spacing="2.2" fill="currentColor">
-    <textPath href="#coinArcTop" startOffset="50%" text-anchor="middle">ਟਕਸål · ਸਚੀ ਟਕਸål</textPath>
-  </text>
-  <text class="coin-rim" font-size="7.6" letter-spacing="3.6" fill="currentColor">
-    <textPath href="#coinArcBottom" startOffset="50%" text-anchor="middle">TAKSAL</textPath>
-  </text>
-  <path d="M80 52 C 94 62, 98 82, 80 104 C 62 82, 66 62, 80 52 Z" fill="none" stroke="currentColor" stroke-width="1.4"></path>
-  <path d="M80 57 L80 97" fill="none" stroke="currentColor" stroke-width="1"></path>
-  <path d="M80 70 L72.5 76 M80 70 L87.5 76 M80 81 L71.5 87 M80 81 L88.5 87" fill="none" stroke="currentColor" stroke-width="0.8"></path>
-  <circle cx="80" cy="80" r="2.1" fill="#c8902a"></circle>
-  <circle cx="80" cy="14.5" r="1.6" fill="currentColor"></circle>
-  <circle cx="80" cy="145.5" r="1.6" fill="currentColor"></circle>
-  <circle cx="14.5" cy="80" r="1.6" fill="currentColor"></circle>
-  <circle cx="145.5" cy="80" r="1.6" fill="currentColor"></circle>
-</svg>
-      </div>
-    </div>
-    <div class="head-right">
-        <a class="social" href="https://instagram.com" aria-label="Taksal on Instagram" title="Instagram"><svg viewBox="0 0 18 18" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true"><rect x="2.5" y="2.5" width="13" height="13" rx="4"></rect><circle cx="9" cy="9" r="3.1"></circle><circle cx="13.1" cy="4.9" r="0.8" fill="currentColor" stroke="none"></circle></svg></a>
-        <a class="social" href="https://x.com" aria-label="Taksal on X" title="X"><svg viewBox="0 0 18 18" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true"><path d="M3 3l12 12"></path><path d="M15 3L3 15"></path></svg></a>
-        <a class="social" href="https://facebook.com" aria-label="Taksal on Facebook" title="Facebook"><svg viewBox="0 0 18 18" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true"><path d="M11.2 15.5V9.6h2l.3-2.3h-2.3V5.8c0-.7.2-1.1 1.2-1.1h1.2V2.6c-.2 0-.9-.1-1.8-.1-1.8 0-3 1.1-3 3.1v1.7H6.9v2.3h1.9v5.9z" fill="currentColor" stroke="none"></path></svg></a>
-        <a class="social" href="https://youtube.com" aria-label="Taksal on YouTube" title="YouTube"><svg viewBox="0 0 18 18" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true"><rect x="1.6" y="4" width="14.8" height="10" rx="2.6"></rect><path d="M7.6 6.8l4.2 2.2-4.2 2.2z" fill="currentColor" stroke="none"></path></svg></a>
-      <a class="signin" href="signin.html">Sign in</a>
-    </div>
-  </div>
-</header>
 <div class="wrap">
-  <div class="shell">
-    <nav class="side" aria-label="Sections">
-  <span class="side-label">Sections</span>
-  <ul>
-    <li><a href="index.html" class="active" aria-current="page">Home</a></li>
-    <li><a href="hukamnama.html">Hukamnama</a></li>
-    <li><a href="guru-granth-sahib.html">Sri Guru Granth Sahib</a></li>
-    <li><a href="dasam-granth.html">Dasam Granth</a></li>
-    <li><a href="vaaran.html">Vaaran</a></li>
-    <li><a href="pothis.html">Pothis</a></li>
-    <li><a href="library.html">Library</a></li>
-    <li><a href="model.html">Taksal (the model)</a></li>
-    <li><a href="about.html">About</a></li>
-  </ul>
-</nav>
-    <main id="main">
-<section class="hero">
-  <h1 class="hero-title">Taksal</h1>
-  <p class="hero-gurmukhi">ਟਕਸਾਲ <span class="hero-roman">(ṭaksāl)</span></p>
-  <p class="hero-quote" lang="pa-Guru">ਘੜੀਐ ਸਬਦੁ ਸਚੀ ਟਕਸål ਸ਼?</p>
-  <p class="hero-translation">In this true mint, the Word of the Shabad is forged.</p>
-  <p class="hero-ref">Japji Sahib, Pauri 38</p>
-  <div class="coin-wrap">
-    <svg class="coin" viewBox="0 0 160 160" role="img" aria-label="Taksal coin mark: a silver rupee style coin with Gurmukhi text around the rim and a leaf at the centre">
-  <defs>
-    <path id="coinArcTop" d="M 22 80 A 58 58 0 0 1 138 80"></path>
-    <path id="coinArcBottom" d="M 138 80 A 58 58 0 0 1 22 80"></path>
-  </defs>
-  <circle cx="80" cy="80" r="74" fill="none" stroke="currentColor" stroke-width="1.6"></circle>
-  <circle cx="80" cy="80" r="68" fill="none" stroke="#c8902a" stroke-width="1"></circle>
-  <circle cx="80" cy="80" r="47" fill="none" stroke="currentColor" stroke-width="1.2"></circle>
-  <circle cx="80" cy="80" r="42" fill="none" stroke="#c8902a" stroke-width="0.7" stroke-dasharray="1 4"></circle>
-  <text class="coin-rim" font-size="9.2" letter-spacing="2.2" fill="currentColor">
-    <textPath href="#coinArcTop" startOffset="50%" text-anchor="middle">ਟਕਸål · ਸਚੀ ਟਕਸål</textPath>
-  </text>
-  <text class="coin-rim" font-size="7.6" letter-spacing="3.6" fill="currentColor">
-    <textPath href="#coinArcBottom" startOffset="50%" text-anchor="middle">TAKSAL</textPath>
-  </text>
-  <path d="M80 52 C 94 62, 98 82, 80 104 C 62 82, 66 62, 80 52 Z" fill="none" stroke="currentColor" stroke-width="1.4"></path>
-  <path d="M80 57 L80 97" fill="none" stroke="currentColor" stroke-width="1"></path>
-  <path d="M80 70 L72.5 76 M80 70 L87.5 76 M80 81 L71.5 87 M80 81 L88.5 87" fill="none" stroke="currentColor" stroke-width="0.8"></path>
-  <circle cx="80" cy="80" r="2.1" fill="#c8902a"></circle>
-  <circle cx="80" cy="14.5" r="1.6" fill="currentColor"></circle>
-  <circle cx="80" cy="145.5" r="1.6" fill="currentColor"></circle>
-  <circle cx="14.5" cy="80" r="1.6" fill="currentColor"></circle>
-  <circle cx="145.5" cy="80" r="1.6" fill="currentColor"></circle>
-</svg>
-  </div>
-</section>
-
-<section class="section">
-  <p class="kicker">Taksal (the model)</p>
-  <h2>Terminal model console</h2>
-  <p class="lede">A plain-line search console over the sources. The model itself is in development and this console does not generate answers. It searches sources (BaniDB + local index) and prints citations.</p>
-  <p class="note">The cited model is in development. The console does not generate answers.</p>
-  <div class="term">
-    <div class="term-top">
-      <span class="term-brand">Taksal</span>
-      <span class="term-gurmukhi">ਟਕਸਾਲ</span>
-    </div>
-    <pre class="term-log" id="term-log">
-<!-- Terminal will print citations from sources here -->
-<log-line-gur>ਸਰਬਲੋਕੁ ਮੰਤ੍ਰੁ ਅਨvekਹੁ ॥</log-line-gur>
-<log-line-en>Observe the universal mantra.</log-line-en>
-</pre>
-    <div class="term-banner" style="background: var(--saffron); color: #e9dcc0; padding: 8px 11px; margin: 18px 0 0; font-size: 12.3px; line-height: 1.55; max-width: 760px;">
-      ⚠️ The model is in development. The console does not generate answers. It only searches sources and prints citations.
-    </div>
-    <form class="term-form" id="search-form">
-      <span class="term-prompt">taksal> </span>
-      <input type="text" placeholder="Search sources..." id="search-input">
-    </form>
-  </div>
-</section>
-
-<section class="section">
-  <p class="kicker">Search</p>
-  <div class="rows">
-    <a class="row" href="#">
-      <span class="row-title">Search sources</span>
-      <span class="row-desc">Search the BaniDB and local text index for Gurbani and historical references.</span>
-      <span class="row-go">Console</span>
-    </a>
-  </div>
-</section>
-
-<!-- Lunr.js search index -->
-<script src="https://cdn.jsdelivr.net/lunr.js/2.10.1/lunr.min.js"></script>
-<script>
- // Client-side search using Lunr.js
- // Search index built from sources.json books and Gurbani terms
-
- // Wait for DOM to load, then initialize search
- document.addEventListener('DOMContentLoaded', function() {
-   // Define the search index terms and citations
-   // These are derived from data/sources.json and Gurbani text
-   const documents = {
-     // Books from data/sources.json
-     "sikh-religion": {
-       title: "The Sikh Religion: Its Gurus, Sacred Writings and Authors",
-       author: "Max Arthur Macauliffe",
-       year: "1909",
-       kind: "History and translation",
-       text: "The Sikh Religion Its Gurus Sacred Writings and Authors Max Arthur Macauliffe 1909 This work contains the full life and teachings of the Sikh Gurus along with a comprehensive collection of their sacred writings. It is the most authoritative English source on Sikh history and scripture."
-     },
-     "history-sikhs": {
-       title: "A History of the Sikhs",
-       author: "Joseph Davey Cunningham",
-       year: "1849",
-       kind: "History",
-       text: "A History of the Sikhs Joseph Davey Cunningham 1849 This historical account covers the early period of Sikh history from the time of Guru Nanak to the reign of Ranjit Singh. It provides important context for understanding the development of the Sikh community."
-     },
-     "cunningham-sikhs": {
-       title: "Cunningham's Sketch of the Sikhs",
-       author: "Joseph Davey Cunningham",
-       year: "1812",
-       kind: "History",
-       text: "Cunningham's Sketch of the Sikhs Joseph Davey Cunningham 1812 An early historical sketch of the Sikh people and their beliefs. This work documents the origins and early development of Sikhism in the Punjab region."
-     },
-     "prinsep-sikh-power": {
-       title: "Prinsep's Origin of the Sikh Power in the Punjab",
-       author: "James Prinsep",
-       year: "1834",
-       kind: "History",
-       text: "Prinsep's Origin of the Sikh Power in the Punjab James Prinsep 1834 This work examines the rise of Sikh power in the Punjab region during the early 19th century. It provides valuable historical insights into the political landscape of the time."
-     },
-     "ranjit-singh": {
-       title: "Ranjit Singh",
-       author: "Griffin",
-       year: "1892",
-       kind: "Biography",
-       text: "Ranjit Singh Griffin 1892 The definitive biography of Maharaja Ranjit Singh the Lion of Punjab who unified the Sikh misls and established the Sikh Empire. His rule from 1780 to 1839 is considered the golden age of the Sikh kingdom."
-     },
-     "short-history-sikhs": {
-       title: "A Short History of the Sikhs",
-       author: "Payne",
-       year: "1915",
-       kind: "History",
-       text: "A Short History of the Sikhs Payne 1915 A concise overview of Sikh history from the time of Guru Nanak to the early 20th century. Covers the major Gurus events and the development of the Khalsa panth."
-     },
-     "trans-sikhism": {
-       title: "Transformation of Sikhism",
-       author: "Narang",
-       year: "1912",
-       kind: "History and sociology",
-       text: "Transformation of Sikhism Narang 1912 A sociological analysis of the changes and developments within Sikhism over time. Examines how the religion adapted and evolved through the modern period."
-     },
-     "adi-granth": {
-       title: "The Adi Granth: Sacred Book of the Sikhs",
-       author: "Trumpp",
-       year: "1877",
-       kind: "Translation and analysis",
-       text: "The Adi Granth: Sacred Book of the Sikhs Trumpp 1877 A comprehensive scholarly translation and analysis of the Guru Granth Sahib the eternal Guru of the Sikhs. This work makes the scripture accessible to English readers for the first time."
-     },
-     "mahan-kosh": {
-       title: "Mahan Kosh",
-       author: "Bhai Kahn Singh Nabha",
-       year: "1930",
-       kind: "Encyclopaedia of Gurbani",
-       text: "Mahan Kosh Bhai Kahn Singh Nabha 1930 The encyclopedic dictionary of Gurbani terms and concepts. This comprehensive Gurmukhi work defines thousands of terms found in Sikh scripture and is an essential reference for serious students."
-     },
-     "zafarnama": {
-       title: "Zafarnama",
-       author: "Guru Gobind Singh",
-       year: "1705",
-       kind: "Letter and poetry",
-       text: "Zafarnama The Letter of Victory composed by Guru Gobind Singh the Tenth Guru. This historic letter was written to Emperor Aurangzeb recounting the struggles and sacrifices of the Sikh community. It remains one of the most important Sikh literary works."
-     },
-     "gur-sobha": {
-       title: "Sri Gur Sobha",
-       author: "Sainapati",
-       year: "1711",
-       kind: "Poetry and history",
-       text: "Sri Gur Sobha Sainapati 1711 A poetic history of the Sikh Gurus from Guru Nanak to Guru Gobind Singh. Written in Braj and Punjabi this work combines poetry with historical narrative."
-     },
-     "early-zafarnama": {
-       title: "Early English Zafarnama Translations",
-       author: "Various",
-       year: "1924-1930",
-       kind: "Religious poetry translation",
-       text: "Early English translations of the Zafarnama by Mohan Singh J.D. Singh and others. These translations made the Guru's historic letter accessible to English-speaking audiences during the 1920s and 1930s."
-     },
-     "gurbani-dictionary": {
-       title: "Gurbani Dictionary",
-       author: "SGPC",
-       year: "2010",
-       kind: "Gurbani glossary",
-       text: "Gurbani Dictionary SGPC 2010 An official glossary of Gurbani terms provided by the Shiromani Gurdwara Parbandhak Committee. Defines key terms and concepts found in Sikh scripture."
-     },
-     "granth-sample": {
-       title: "Guru Granth Sahib Ang 1-10",
-       author: "Various Gurus",
-       year: "various",
-       kind: "Scripture",
-       text: "Guru Granth Sahib Ang 1-10 Sample pages from the Sri Guru Granth Sahib. Contains the first 10 sections (ang) of the Sikh holy scripture in Gurmukhi with OCR text."
-     },
-
-     // Gurbani terms for searching
-     "ranjit": {
-       term: "Ranjit",
-       meaning: "Beloved one" ,
-       context: "Refers to Maharaja Ranjit Singh the Lion of Punjab"
-     },
-     "zafarnama": {
-       term: "Zafarnama",
-       meaning: "Letter of Victory",
-       context: "Guru Gobind Singh's letter to Emperor Aurangzeb"
-     },
-     "gurmukhi": {
-       term: "Gurmukhi",
-       meaning: "The teacher's mouth",
-       context: "The script used for writing Gurbani and Punjabi"
-     },
-     "guru-granth": {
-       term: "Guru Granth Sahib",
-       meaning: "The eternal Guru",
-       context: "The Sikh holy scripture and eternal living Guru"
-     },
-     "guru-nanak": {
-       term: "Guru Nanak",
-       meaning: "First Teacher",
-       context: "The founder of Sikhism and first of the Ten Gurus"
-     }
-   };
-
-   // Build Lunr.js search index
-   const idx = lunr(function () {
-     this.field('title', { boost: 10 });
-     this.field('author');
-     this.field('kind');
-     this.field('text');
-
-     // Add all documents to the index
-     Object.keys(documents).forEach(key => {
-       const doc = documents[key];
-       this.addDoc({
-         id: key,
-         title: doc.title,
-         author: doc.author,
-         kind: doc.kind,
-         text: doc.text
-       });
-     });
-   });
-
-   // Handle search form submission
-   const searchForm = document.getElementById('search-form');
-   const termInput = document.getElementById('search-input');
-   const termPrompt = searchForm.querySelector('.term-prompt');
-
-   searchForm.addEventListener('submit', function(e) {
-     e.preventDefault();
-     const term = termInput.value.trim();
-     if (!term) return;
-
-     // Clear previous results
-     const termLog = document.querySelector('.term-log');
-     termLog.innerHTML = '';
-
-     // Perform search
-     const results = idx.search(term);
-
-     if (results.length === 0) {
-       // No results found
-       const noResult = document.createElement('div');
-       noResult.className = 'log-line-en';
-       noResult.textContent = `No results found for: "${term}"`;
-       termLog.appendChild(noResult);
-     } else {
-       // Display results
-       results.slice(0, 5).forEach(result => {
-         const doc = documents[result.id];
-         const logLine = document.createElement('div');
-         logLine.className = 'log-line-gur';
-         logLine.innerHTML = `<log-line-gur>${doc.title}</log-line-gur>
-<log-line-en>${doc.title} by ${doc.author} (${doc.year}) - ${doc.kind}</log-line-en>`;
-         termLog.appendChild(logLine);
-       });
-     }
-
-     // Print search result to terminal
-     const termLine = document.createElement('div');
-     termLine.className = 'log-line-en';
-     termLine.textContent = `taksal> ${term}`;
-     termLog.appendChild(termLine);
-
-     // Auto-scroll to bottom
-     termLog.scrollTop = termLog.scrollHeight;
-   });
-
-   // Initialize term prompt
-   termPrompt.textContent = 'taksal> ';
- });
-</script>
-
+<div class="topbar">
+  <div class="left"><span class="hist"><button type="button" data-hist="back" aria-label="Back">←</button><button type="button" data-hist="forward" aria-label="Forward">→</button></span><span class="path"><a href="index.html">Home</a> / Taksal (the model)</span></div>
+  <div class="right"><span class="socials" style="display:flex;gap:10px"><a href="https://instagram.com" aria-label="Taksal on Instagram" title="Instagram"><svg viewBox="0 0 18 18" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="2.5" width="13" height="13" rx="4"/><circle cx="9" cy="9" r="3.1"/></svg></a><a href="https://x.com" aria-label="Taksal on X" title="X"><svg viewBox="0 0 18 18" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 3.5l11 11M14.5 3.5l-11 11"/></svg></a><a href="https://facebook.com" aria-label="Taksal on Facebook" title="Facebook"><svg viewBox="0 0 18 18" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 15.5V9.5h2l.3-2.2H11V5.9c0-.6.2-1 1.1-1h1.2V2.9c-.2 0-.9-.1-1.7-.1-1.7 0-2.9 1-2.9 2.9v1.6H6.8v2.2h1.9v6"/></svg></a><a href="https://youtube.com" aria-label="Taksal on YouTube" title="YouTube"><svg viewBox="0 0 18 18" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><rect x="1.8" y="4.2" width="14.4" height="9.6" rx="2.4"/><path d="M7.7 6.9l3.9 2.1-3.9 2.1z"/></svg></a></span><a href="signin.html">Sign in</a></div>
+</div>
+<header class="site compact">
+  <div><a class="brand" href="index.html">Taksal</a><p class="brand-sub" lang="pa">ਟਕਸਾਲ <span>(ṭaksāl)</span></p></div>
+  <pre class="coin small" role="img" aria-label="Taksal's mark, a Ranjit Singh rupee">                          : :.....
+                  .::--:::**+**-==-::::.
+              .::====+--===+++-.===.:-**=-:.
+           .==+:-:::--:.::::..:=*===+=#-:-+*+-
+         -=+*:#+--:::::--==+***=#*==#=*#**#-*#*=.
+       :+*+=:.=**#%########*=-:.-##*=:-+++::--+**-
+     .:-=::::-:.::::-::::.::::--:::::----------=+++=
+    =***##%##########*#####%%%%%@@@@@@@@@@%%%%%#+=++-
+   :====-==-=--=+++++++===+====*:::-=*+=+++-::..-=:-=*
+  .*=:-:.. ..:... -=.   ....=-+-::.-=+*=:++-:-=++#+*#-#
+  ++==+==.-===-::-+=.--++==+-++-==++:=+=:.:=-=*-::=#-:+
+ =+=**-==:-==----==--=+=::-..:.===-+:-%-=-*@#*+++*#*#*=*
+.**+==-+==--=--===:-=+-:---:=+=---++::#@@@%=+#%%%#*++=-*
+==::==-#=:-::-===*-::--++=-=+:==-:*=--=:=-::==... .=+*=+
+=*:.++-:*=+===+===%#**#+:=*+==:+=-+=:==..::-*-.::+==++:+
+:*=--*=:++-++++-+.-+*-=*+-*% :--+=::+%-:-*. ..-=**=-.+++
+ *=:=*:+*:=*++#..::++=*-:.+@*:...-+%@=-===-::-#*=*+--#%@
+ -+:=-.-***++-#@*#%*:-:---+#@@@@@@@*--*#+.::=##.:=**#@#
+  ++=::..:-+--:+*+-:=::*=++-:=+=+=--+#+#@@%%@#-:. .:*=#
+   #+=+==+*%+-==+==**+#++*==+=::+***+:.:+***=--++**#**
+    ##::==:=#*+==+=-:=-:::--=---::......    ...:-=*%@
+     -#+:.::...::.....:::::------==++++**+******#@@@
+       +##*#%#%%%%%%%@@@@@@@@@@@@@@@%%%%#*#**#@@@@
+        .*@#+*+====-======+==-:----::::::+++%@@@@
+          :*%*-- .::-=+*+*==+*=::-+=.=*%@@@@@@%
+            .-=###===-=+-.-:==***###@@@@@@@#
+                .-=*##*==+#+##*%@###%#*+-
+                     .::::::::::...</pre>
+</header>
+<nav class="main" aria-label="Sections"><a href="search.html">Search</a><a href="hukamnama.html">Hukamnama</a><a href="guru-granth-sahib.html">Guru Granth Sahib</a><a href="dasam-granth.html">Dasam Granth</a><a href="vaaran.html">Vaaran</a><a href="library.html">Library</a><a href="pothis.html">Pothis</a><a href="model.html" class="active">Taksal (the model)</a><a href="about.html">About</a></nav>
+<main id="main">
+<h1 class="page">Taksal (the model)</h1>
+<p class="note">The model is in development. This console only searches the sources and prints citations. It does not write answers.</p>
+<div class="term">
+<div class="log" id="log">taksal · searches the library (41 books) and Gurbani (BaniDB)
+type a word or name, e.g. <b>Anandpur</b> or <b>Banda Singh</b>; prefix <b>g:</b> to search Gurbani by first letters, e.g. <b>g:hjkk</b>
+</div>
+<form class="prompt" id="tf"><span>ਟ&gt;</span><input type="text" id="tq" aria-label="Query" autocomplete="off" spellcheck="false"></form>
+</div>
+<div class="sec-label">What the model will be</div>
+<p class="note">It answers only from sources it can cite, and says so when no source supports an answer.<br>It shows how different traditions read a passage, side by side, without picking one.<br>It never generates Gurbani; quotations come from BaniDB.<br>Old manuscripts are read with open OCR and vision models, then checked by people.</p>
+</main>
+<footer class="site">
+  <div><a class="reach" href="mailto:sehajrsinghs@gmail.com?subject=Taksal">Reach out to the team</a></div>
+  <div class="mid"><b>Sehaj Randhir Singh</b>Incorporating as a 501(c)(3) nonprofit</div>
+  <div class="right">Not affiliated with Damdami Taksal<br>Sources: BaniDB (Khalis Foundation), Internet Archive, Wikimedia Commons</div>
+</footer>
+</div>
+<script src="assets/taksal.js" defer></script><script src="assets/banidb.js" defer></script><script src="assets/corpus.js" defer></script><script src="assets/console.js" defer></script>
 </body>
 </html>

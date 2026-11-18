@@ -1,0 +1,417 @@
+{
+ "books": [
+  {
+   "i": 0,
+   "id": "cunninghamshisto00cunnuoft",
+   "title": "Cunningham's history of the Sikhs",
+   "author": "Cunningham, Joseph Davey, 1812-1851, Garrett, H. L. O. (Herbert Leonard Offley), 1881-1941",
+   "year": "1853",
+   "url": "https://archive.org/details/cunninghamshisto00cunnuoft",
+   "pages": 482,
+   "exact": true
+  },
+  {
+   "i": 1,
+   "id": "soldiertraveller00gardiala",
+   "title": "Soldier and traveller; memoirs of Alexander Gardner, Colonel of Artillery in the service of Maharaja Ranjit Singh",
+   "author": "Gardner, Alexander Haughton Campbell, 1785-1877, Pearse, Hugh Wodehouse, 1855-",
+   "year": "1898",
+   "url": "https://archive.org/details/soldiertraveller00gardiala",
+   "pages": 428,
+   "exact": true
+  },
+  {
+   "i": 2,
+   "id": "thesikhreligion01macauoft",
+   "title": "The Sikh religion, its gurus, sacred writings and authors",
+   "author": "Macauliffe, Max Arthur, 1842-1913",
+   "year": "1909",
+   "url": "https://archive.org/details/thesikhreligion01macauoft",
+   "pages": 475,
+   "exact": true
+  },
+  {
+   "i": 3,
+   "id": "thesikhreligioni02macauoft",
+   "title": "The Sikh religion, its gurus, sacred writings and authors",
+   "author": "Macauliffe, Max Arthur, 1842-1913",
+   "year": "1909",
+   "url": "https://archive.org/details/thesikhreligioni02macauoft",
+   "pages": 361,
+   "exact": true
+  },
+  {
+   "i": 4,
+   "id": "thesikhreligio203macauoft",
+   "title": "The Sikh religion, its gurus, sacred writings and authors",
+   "author": "Macauliffe, Max Arthur, 1842-1913",
+   "year": "1909",
+   "url": "https://archive.org/details/thesikhreligio203macauoft",
+   "pages": 451,
+   "exact": true
+  },
+  {
+   "i": 5,
+   "id": "thesikhreligio400macauoft",
+   "title": "The Sikh religion, its gurus, sacred writings and authors",
+   "author": "Macauliffe, Max Arthur, 1842-1913",
+   "year": "1909",
+   "url": "https://archive.org/details/thesikhreligio400macauoft",
+   "pages": 432,
+   "exact": true
+  },
+  {
+   "i": 6,
+   "id": "thesikhreligioni05macauoft",
+   "title": "The Sikh religion, its gurus, sacred writings and authors",
+   "author": "Macauliffe, Max Arthur, 1842-1913",
+   "year": "1909",
+   "url": "https://archive.org/details/thesikhreligioni05macauoft",
+   "pages": 360,
+   "exact": true
+  },
+  {
+   "i": 7,
+   "id": "thesikhreligioni06macauoft",
+   "title": "The Sikh religion, its gurus, sacred writings and authors",
+   "author": "Macauliffe, Max Arthur, 1842-1913",
+   "year": "1909",
+   "url": "https://archive.org/details/thesikhreligioni06macauoft",
+   "pages": 462,
+   "exact": true
+  },
+  {
+   "i": 8,
+   "id": "panjabchiefshis00grifgoog",
+   "title": "The Panjab chiefs. Historical and biographical notices of the principal families in the territories under the Panjab government",
+   "author": "Griffin, Lepel Henry, 1840-1908",
+   "year": "1865",
+   "url": "https://archive.org/details/panjabchiefshis00grifgoog",
+   "pages": 690,
+   "exact": true
+  },
+  {
+   "i": 9,
+   "id": "gurdwarareformmo00singrich",
+   "title": "The Gurdwara Reform Movement and the Sikh awakening",
+   "author": "Singh, Teja",
+   "year": "1922",
+   "url": "https://archive.org/details/gurdwarareformmo00singrich",
+   "pages": 494,
+   "exact": true
+  },
+  {
+   "i": 10,
+   "id": "historyofsikhsor00ramsuoft",
+   "title": "History of the Sikhs; or, Translation of the Sikkhan de raj di vikhia, as laid down for the examination in Panjabi. Together with a short Gurmukhi grammar, and an appendix containing some useful technical words, in roman character. Translated and edited by Henry Court",
+   "author": "Ram, Sardha, fl. 1866, Court, Major Henry, 1843-1892?",
+   "year": "1888",
+   "url": "https://archive.org/details/historyofsikhsor00ramsuoft",
+   "pages": 343,
+   "exact": true
+  },
+  {
+   "i": 11,
+   "id": "sikhsafghansinco00shahrich",
+   "title": "The Sikhs and Afghans, in connexion with the India and Persia, immediately before and after the death of Ranjeet Singh: from the journal of an expedition to Kabul through the Panjab and the Khaibar Pass",
+   "author": "Shahamat Ali",
+   "year": "1847",
+   "url": "https://archive.org/details/sikhsafghansinco00shahrich",
+   "pages": 585,
+   "exact": true
+  },
+  {
+   "i": 12,
+   "id": "originofsikhpowe00prinuoft",
+   "title": "Origin of the Sikh power in the Punjab and political life of Maharaja Ranjit Singh ; with an account of the religion, laws, and customs of Sikhs",
+   "author": "Prinsep, Henry Thoby, 1793-1878",
+   "year": "1834",
+   "url": "https://archive.org/details/originofsikhpowe00prinuoft",
+   "pages": 249,
+   "exact": true
+  },
+  {
+   "i": 13,
+   "id": "handbookonsikhsf00falc",
+   "title": "Handbook on Sikhs for the use of regimental officers, by Captain R. W. Falcon.",
+   "author": "Falcon, Robert Worgan, 1864-",
+   "year": "1896",
+   "url": "https://archive.org/details/handbookonsikhsf00falc",
+   "pages": 154,
+   "exact": true
+  },
+  {
+   "i": 14,
+   "id": "sketchofsikhssin00malcrich",
+   "title": "Sketch of the Sikhs; a singular nation, who inhabit the provinces of the Penjab, situated between the rivers Jumna and Indus",
+   "author": "Malcolm, John, Sir, 1769-1833",
+   "year": "1812",
+   "url": "https://archive.org/details/sketchofsikhssin00malcrich",
+   "pages": 207,
+   "exact": true
+  },
+  {
+   "i": 15,
+   "id": "shorthistoryofsi00paynrich",
+   "title": "A short history of the Sikhs",
+   "author": "Payne, C. H. (Charles Herbert)",
+   "year": "[191",
+   "url": "https://archive.org/details/shorthistoryofsi00paynrich",
+   "pages": 246,
+   "exact": true
+  },
+  {
+   "i": 16,
+   "id": "ranjitsingh00grif",
+   "title": "Ranjit Singh",
+   "author": "Griffin, Lepel Henry, Sir, 1840-1908",
+   "year": "1892",
+   "url": "https://archive.org/details/ranjitsingh00grif",
+   "pages": 238,
+   "exact": true
+  },
+  {
+   "i": 17,
+   "id": "digranthorholysc00trumuoft",
+   "title": "The di Granth : or, The holy scriptures of the Sikhs",
+   "author": "Trumpp, Ernst, 1828-1885",
+   "year": "1877",
+   "url": "https://archive.org/details/digranthorholysc00trumuoft",
+   "pages": 1002,
+   "exact": true
+  },
+  {
+   "i": 18,
+   "id": "CatalogueOfKhalsaDarbarRecordsVol.2CompiledBySitaRamKohli",
+   "title": "Catalogue Of Khalsa Darbar Records Vol.2 - Compiled by Sita Ram Kohli",
+   "author": "Sikh Digital Library",
+   "year": "1927",
+   "url": "https://archive.org/details/CatalogueOfKhalsaDarbarRecordsVol.2CompiledBySitaRamKohli",
+   "pages": 322,
+   "exact": true
+  },
+  {
+   "i": 19,
+   "id": "CatalogueOfKhalsaDarbarRecordsVol.1CompiledBySitaRamKohli_201605",
+   "title": "Catalogue of Khalsa Darbar Records Vol.1 - Compiled by Sita Ram Kohli",
+   "author": "Sikh Digital Library",
+   "year": "1919",
+   "url": "https://archive.org/details/CatalogueOfKhalsaDarbarRecordsVol.1CompiledBySitaRamKohli_201605",
+   "pages": 120,
+   "exact": false
+  },
+  {
+   "i": 20,
+   "id": "gurunanaklifeand00singuoft",
+   "title": "Life and teachings of Guru Nanak",
+   "author": "Singh, Thakur",
+   "year": "1906",
+   "url": "https://archive.org/details/gurunanaklifeand00singuoft",
+   "pages": 109,
+   "exact": true
+  },
+  {
+   "i": 21,
+   "id": "historypunjaban02pringoog",
+   "title": "History of the Punjab, and of the rise, progress & present condition of the sect and nation of the Sikhs",
+   "author": "Henry Thoby Prinsep",
+   "year": "1846",
+   "url": "https://archive.org/details/historypunjaban02pringoog",
+   "pages": 745,
+   "exact": true
+  },
+  {
+   "i": 22,
+   "id": "historysikhscon01gregoog",
+   "title": "The history of the Sikhs; containing the lives of the Gooroos; the history of the independent Sirdars, or Missuls, and the life of the great founder of the Sikh monarchy, Maharajah Runjeet Singh;",
+   "author": "M'Gregor, William Lewis",
+   "year": "1846",
+   "url": "https://archive.org/details/historysikhscon01gregoog",
+   "pages": 724,
+   "exact": true
+  },
+  {
+   "i": 23,
+   "id": "historysikhscon00gregoog",
+   "title": "The history of the Sikhs; containing the lives of the Gooroos; the history of the independent Sirdars, or Missuls, and the life of the great founder of the Sikh monarchy, Maharajah Runjeet Singh;",
+   "author": "M'Gregor, William Lewis",
+   "year": "1846",
+   "url": "https://archive.org/details/historysikhscon00gregoog",
+   "pages": 179,
+   "exact": false
+  },
+  {
+   "i": 24,
+   "id": "sikhsofpunjab00parruoft",
+   "title": "The Sikhs of the Punjab",
+   "author": "Parry, Roy Edgardo",
+   "year": "[192",
+   "url": "https://archive.org/details/sikhsofpunjab00parruoft",
+   "pages": 155,
+   "exact": true
+  },
+  {
+   "i": 25,
+   "id": "anecdotessikh00singuoft",
+   "title": "Anecdotes from Sikh history",
+   "author": "Singh, Puran, 1881-1931",
+   "year": "1908",
+   "url": "https://archive.org/details/anecdotessikh00singuoft",
+   "pages": 96,
+   "exact": true
+  },
+  {
+   "i": 26,
+   "id": "travelsinkashmir00huge",
+   "title": "Travels in Kashmir and the Panjab, containing a particular account of the government and character of the Sikhs",
+   "author": "Hügel, Karl Alexander, Freiherr von, 1795 or 6-1870, Jervis, T. B. (Thomas Best), 1796-1857",
+   "year": "1845",
+   "url": "https://archive.org/details/travelsinkashmir00huge",
+   "pages": 450,
+   "exact": true
+  },
+  {
+   "i": 27,
+   "id": "commentariesonpu00lawr",
+   "title": "Commentaries on the Punjab Campaign, 1848-49. Including some additions to the history of the Second Sikh War, from original sources",
+   "author": "Lawrence-Archer, J. H. (James Henry), 1823-1889",
+   "year": "1878",
+   "url": "https://archive.org/details/commentariesonpu00lawr",
+   "pages": 285,
+   "exact": true
+  },
+  {
+   "i": 28,
+   "id": "thesikhs00gorduoft",
+   "title": "The Sikhs;",
+   "author": "Gordon, John James Hood, Sir, 1832-1908",
+   "year": "1904",
+   "url": "https://archive.org/details/thesikhs00gorduoft",
+   "pages": 258,
+   "exact": true
+  },
+  {
+   "i": 29,
+   "id": "sistersofspinnin00singiala",
+   "title": "The sisters of the spinning wheel, and other Sikh poems",
+   "author": "Singh, Puran, 1881-1931",
+   "year": "1921",
+   "url": "https://archive.org/details/sistersofspinnin00singiala",
+   "pages": 216,
+   "exact": true
+  },
+  {
+   "i": 30,
+   "id": "annexationofpunj00belluoft",
+   "title": "The annexation of the Punjaub, and the Maharajah Duleep Singh",
+   "author": "Bell, Evans, 1825-1887, Dhuleep Singh, Maharajah, 1838-1893",
+   "year": "1882",
+   "url": "https://archive.org/details/annexationofpunj00belluoft",
+   "pages": 115,
+   "exact": true
+  },
+  {
+   "i": 31,
+   "id": "punjaubbeingbrie00stei",
+   "title": "The Punjaub; being a brief account of the country of the Sikhs",
+   "author": "Steinbach, Henry",
+   "year": "1846",
+   "url": "https://archive.org/details/punjaubbeingbrie00stei",
+   "pages": 199,
+   "exact": true
+  },
+  {
+   "i": 32,
+   "id": "inthesikhsanct00vaswuoft",
+   "title": "In the Sikh sanctuary",
+   "author": "Vaswani, Thanwardas Lilaram",
+   "year": "1922",
+   "url": "https://archive.org/details/inthesikhsanct00vaswuoft",
+   "pages": 103,
+   "exact": true
+  },
+  {
+   "i": 33,
+   "id": "lawofinheritance00grif",
+   "title": "The law of inheritance to chiefships as observed by the Sikhs previous to the annexation of the Panjab",
+   "author": "Griffin, Lepel Henry, Sir, 1840-1908",
+   "year": "1869",
+   "url": "https://archive.org/details/lawofinheritance00grif",
+   "pages": 126,
+   "exact": true
+  },
+  {
+   "i": 34,
+   "id": "sikhsandsikhwar00gouggoog",
+   "title": "The Sikhs and the Sikh Wars: The Rise, Conquest, and Annexation of the Punjab State",
+   "author": "Arthur Donald Innes ,  Sir Charles Gough",
+   "year": "1897",
+   "url": "https://archive.org/details/sikhsandsikhwar00gouggoog",
+   "pages": 224,
+   "exact": false
+  },
+  {
+   "i": 35,
+   "id": "dli.ernet.745",
+   "title": "Philosophy of the Sikh Religion (1914)",
+   "author": "Singh Khazan",
+   "year": "1914",
+   "url": "https://archive.org/details/dli.ernet.745",
+   "pages": 243,
+   "exact": false
+  },
+  {
+   "i": 36,
+   "id": "SikhMartyrsBhagatLakshmanSingh",
+   "title": "Sikh Martyrs - Bhagat Lakshman Singh",
+   "author": "Sikh Digital Library",
+   "year": "1919",
+   "url": "https://archive.org/details/SikhMartyrsBhagatLakshmanSingh",
+   "pages": 112,
+   "exact": false
+  },
+  {
+   "i": 37,
+   "id": "ldpd_12336057_000",
+   "title": "Sikhs: comp. under the orders of the government of India",
+   "author": "India. Army, Bingley, A. H., 1865-1944",
+   "year": "1899",
+   "url": "https://archive.org/details/ldpd_12336057_000",
+   "pages": 134,
+   "exact": false
+  },
+  {
+   "i": 38,
+   "id": "religionofsikhs00fiel",
+   "title": "The religion of the Sikhs",
+   "author": "Field, Dorothy",
+   "year": "1914",
+   "url": "https://archive.org/details/religionofsikhs00fiel",
+   "pages": 116,
+   "exact": true
+  },
+  {
+   "i": 39,
+   "id": "in.ernet.dli.2015.217375",
+   "title": "History And Philosophy Of The Sikh Religion Part 2",
+   "author": "Khazan Singh",
+   "year": "1914",
+   "url": "https://archive.org/details/in.ernet.dli.2015.217375",
+   "pages": 373,
+   "exact": true
+  },
+  {
+   "i": 40,
+   "id": "in.ernet.dli.2015.217376",
+   "title": "History And Philosophy Of The Sikh Religion Part 1",
+   "author": "Khazan Singh",
+   "year": "1914",
+   "url": "https://archive.org/details/in.ernet.dli.2015.217376",
+   "pages": 338,
+   "exact": true
+  }
+ ],
+ "pages": 13401,
+ "words": 126354,
+ "chunk": 40
+}
