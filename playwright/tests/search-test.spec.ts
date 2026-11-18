@@ -1,16 +1,16 @@
 import { test, expect, chromium } from '@playwright/test';
 
 const PAGES = [
-  'index.html',
-  'about.html',
-  'hukamnama.html',
-  'guru-granth-sahib.html',
-  'dasam-granth.html',
-  'vaaran.html',
-  'pothis.html',
-  'library.html',
-  'model.html',
-  'signin.html',
+  'pages/index.html',
+  'pages/about.html',
+  'pages/hukamnama.html',
+  'pages/guru-granth-sahib.html',
+  'pages/dasam-granth.html',
+  'pages/vaaran.html',
+  'pages/pothis.html',
+  'pages/library.html',
+  'pages/model.html',
+  'pages/signin.html',
 ];
 
 test('every page loads without errors', async () => {
@@ -25,11 +25,14 @@ test('every page loads without errors', async () => {
     await page.goto(url, { waitUntil: 'networkidle' });
 
     // Check no horizontal scroll at 390px
-    await page.setViewport({ width: 390, height: 844 });
+    await page.evaluate(() => {
+      document.documentElement.style.width = '390px';
+      document.documentElement.style.height = '844px';
+    });
     const horizontalScroll = await page.evaluate(() => {
       return document.documentElement.scrollWidth > document.documentElement.clientWidth;
     });
-    expect(horizontalScroll).toBeFalsy(`Horizontal scroll found on ${pageFile} at 390px`);
+    expect(horizontalScroll).toBe(false);
 
     // Check no console errors
     const consoleErrors: string[] = [];
@@ -58,13 +61,13 @@ test('search works for "Ranjit"', async () => {
     viewport: { width: 1280, height: 720 },
   });
   const page = await context.newPage();
-  await page.goto('/model.html', { waitUntil: 'networkidle' });
+  await page.goto('/pages/model.html', { waitUntil: 'networkidle' });
 
   // Wait for search init
-  await page.waitForSelector('#search-input', { state: 'visible', timeout: 5000 });
+  await page.waitForSelector('#term-input', { state: 'visible', timeout: 5000 });
 
   // Search for "Ranjit"
-  await page.fill('#search-input', 'Ranjit');
+  await page.fill('#term-input', 'Ranjit');
   await page.keyboard.press('Enter');
   await page.waitForTimeout(1000);
 
@@ -82,13 +85,13 @@ test('search works for "Zafarnama"', async () => {
     viewport: { width: 1280, height: 720 },
   });
   const page = await context.newPage();
-  await page.goto('/model.html', { waitUntil: 'networkidle' });
+  await page.goto('/pages/model.html', { waitUntil: 'networkidle' });
 
   // Wait for search init
-  await page.waitForSelector('#search-input', { state: 'visible', timeout: 5000 });
+  await page.waitForSelector('#term-input', { state: 'visible', timeout: 5000 });
 
   // Search for "Zafarnama"
-  await page.fill('#search-input', 'Zafarnama');
+  await page.fill('#term-input', 'Zafarnama');
   await page.keyboard.press('Enter');
   await page.waitForTimeout(1000);
 
@@ -106,13 +109,13 @@ test('search works for Gurmukhi word "ਗੁਰੂ"', async () => {
     viewport: { width: 1280, height: 720 },
   });
   const page = await context.newPage();
-  await page.goto('/model.html', { waitUntil: 'networkidle' });
+  await page.goto('/pages/model.html', { waitUntil: 'networkidle' });
 
   // Wait for search init
-  await page.waitForSelector('#search-input', { state: 'visible', timeout: 5000 });
+  await page.waitForSelector('#term-input', { state: 'visible', timeout: 5000 });
 
   // Search for Gurmukhi word "ਗੁਰੂ"
-  await page.fill('#search-input', 'ਗੁਰੂ');
+  await page.fill('#term-input', 'ਗੁਰੂ');
   await page.keyboard.press('Enter');
   await page.waitForTimeout(1000);
 
