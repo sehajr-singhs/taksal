@@ -18,19 +18,50 @@
   <div class="head-inner">
     <div class="head-left">
       <div class="hist">
-        <button type="button" class="hbtn" data-hist="back" aria-label="Go back" title="Back"><svg viewBox="0 0 20 20" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11.5 4.5L6 10l5.5 5.5"></path></svg></button>
-        <button type="button" class="hbtn" data-hist="forward" aria-label="Go forward" title="Forward"><svg viewBox="0 0 20 20" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8.5 4.5L14 10l-5.5 5.5"></path></svg></button>
+        <button type="button" class="hbtn" aria-label="Go back" title="Back">←</button>
+        <button type="button" class="hbtn" aria-label="Go forward" title="Forward">→</button>
       </div>
-      <nav class="crumb" aria-label="Breadcrumb"><a href="index.html">Home</a><span class="sep">/</span><span aria-current="page">About</span></nav>
+      <nav class="crumb" aria-label="Breadcrumb"><span>Home / Hukamnama</span></nav>
+    </div>
+    <div class="title-block" style="display: flex; align-items: baseline; gap: 12px;">
+      <div>
+        <h1 class="hero-title">Taksal</h1>
+        <p class="hero-gurmukhi">ਟਕਸਾਲ <span class="hero-roman">(ṭaksāl)</span></p>
+        <p class="hero-quote" lang="pa-Guru">ਘੜੀਐ ਸਬਦੁ ਸਚੀ ਟਕਸਾਲ ॥</p>
+        <p class="hero-translation">In this true mint, the Word of the Shabad is forged.</p>
+        <p class="hero-ref">Japji Sahib, Pauri 38</p>
+      </div>
+      <div class="coin-wrap" style="margin-left: 20px; width: 140px; height: 140px;">
+        <svg class="coin" viewBox="0 0 160 160" role="img" aria-label="Taksal coin mark: a silver rupee style coin with Gurmukhi text around the rim and a leaf at the centre">
+  <defs>
+    <path id="coinArcTop" d="M 22 80 A 58 58 0 0 1 138 80"></path>
+    <path id="coinArcBottom" d="M 138 80 A 58 58 0 0 1 22 80"></path>
+  </defs>
+  <circle cx="80" cy="80" r="74" fill="none" stroke="currentColor" stroke-width="1.6"></circle>
+  <circle cx="80" cy="80" r="68" fill="none" stroke="#c8902a" stroke-width="1"></circle>
+  <circle cx="80" cy="80" r="47" fill="none" stroke="currentColor" stroke-width="1.2"></circle>
+  <circle cx="80" cy="80" r="42" fill="none" stroke="#c8902a" stroke-width="0.7" stroke-dasharray="1 4"></circle>
+  <text class="coin-rim" font-size="9.2" letter-spacing="2.2" fill="currentColor">
+    <textPath href="#coinArcTop" startOffset="50%" text-anchor="middle">ਟਕਸål · ਸਚੀ ਟਕਸål</textPath>
+  </text>
+  <text class="coin-rim" font-size="7.6" letter-spacing="3.6" fill="currentColor">
+    <textPath href="#coinArcBottom" startOffset="50%" text-anchor="middle">TAKSAL</textPath>
+  </text>
+  <path d="M80 52 C 94 62, 98 82, 80 104 C 62 82, 66 62, 80 52 Z" fill="none" stroke="currentColor" stroke-width="1.4"></path>
+  <path d="M80 57 L80 97" fill="none" stroke="currentColor" stroke-width="1"></path>
+  <path d="M80 70 L72.5 76 M80 70 L87.5 76 M80 81 L71.5 87 M80 81 L88.5 87" fill="none" stroke="currentColor" stroke-width="0.8"></path>
+  <circle cx="80" cy="80" r="2.1" fill="#c8902a"></circle>
+  <circle cx="80" cy="14.5" r="1.6" fill="currentColor"></circle>
+  <circle cx="80" cy="145.5" r="1.6" fill="currentColor"></circle>
+  <circle cx="14.5" cy="80" r="1.6" fill="currentColor"></circle>
+  <circle cx="145.5" cy="80" r="1.6" fill="currentColor"></circle>
+</svg>
+      </div>
     </div>
     <div class="head-right">
-        <!-- TODO: point this at the Taksal Instagram account when it exists. -->
         <a class="social" href="https://instagram.com" aria-label="Taksal on Instagram" title="Instagram"><svg viewBox="0 0 18 18" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true"><rect x="2.5" y="2.5" width="13" height="13" rx="4"></rect><circle cx="9" cy="9" r="3.1"></circle><circle cx="13.1" cy="4.9" r="0.8" fill="currentColor" stroke="none"></circle></svg></a>
-        <!-- TODO: point this at the Taksal X account when it exists. -->
         <a class="social" href="https://x.com" aria-label="Taksal on X" title="X"><svg viewBox="0 0 18 18" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true"><path d="M3 3l12 12"></path><path d="M15 3L3 15"></path></svg></a>
-        <!-- TODO: point this at the Taksal Facebook page when it exists. -->
         <a class="social" href="https://facebook.com" aria-label="Taksal on Facebook" title="Facebook"><svg viewBox="0 0 18 18" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true"><path d="M11.2 15.5V9.6h2l.3-2.3h-2.3V5.8c0-.7.2-1.1 1.2-1.1h1.2V2.6c-.2 0-.9-.1-1.8-.1-1.8 0-3 1.1-3 3.1v1.7H6.9v2.3h1.9v5.9z" fill="currentColor" stroke="none"></path></svg></a>
-        <!-- TODO: point this at the Taksal YouTube channel when it exists. -->
         <a class="social" href="https://youtube.com" aria-label="Taksal on YouTube" title="YouTube"><svg viewBox="0 0 18 18" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true"><rect x="1.6" y="4" width="14.8" height="10" rx="2.6"></rect><path d="M7.6 6.8l4.2 2.2-4.2 2.2z" fill="currentColor" stroke="none"></path></svg></a>
       <a class="signin" href="signin.html">Sign in</a>
     </div>
@@ -95,4 +126,4 @@
 </footer>
 <script src="assets/site.js" defer></script>
 </body>
-</html>
+</html>

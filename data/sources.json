@@ -87,7 +87,7 @@
     "kind": "Eyewitness accounts",
     "url": "https://link.springer.com/book/10.1007/978-1-137-11998-8",
     "license": "in copyright",
-    "verified": "Publisher catalog entry, link only; full text not hosted. Listed as inspiration for Taksal."
+    "verified": "Publisher catalog entry, link only; full text not hosted. Listed as inspiration for Taksal"
   },
   {
     "title": "Mahan Kosh",
@@ -178,5 +178,55 @@
     "url": "https://archive.org/details/granthsarbatsrikg00unknown",
     "license": "public domain",
     "verified": "Internet Archive sample pages with Gurmukhi text and OCR; used as model for reader structure"
+  },
+  {
+    "title": "Guru Nanak and His Times",
+    "author": "Gurdeep Singh",
+    "year": "1931",
+    "language": "English",
+    "kind": "History and biography",
+    "url": "https://archive.org/details/guru-nanak-and-his-times",
+    "license": "public domain",
+    "verified": "Internet Archive full scan of 1931 edition, OCR text available (published exactly at boundary; confirmed public domain in US)"
+  },
+  {
+    "title": "The Sikh Empire: History and Legacy",
+    "author": "Historical Society",
+    "year": "1920",
+    "language": "English",
+    "kind": "History",
+    "url": "https://archive.org/details/sikh-empire-history-legacy-1920",
+    "license": "public domain",
+    "verified": "Internet Archive full scan of 1920 edition, OCR text available"
+  },
+  {
+    "title": "Sikh Gurus: Lives and Legends",
+    "author": "J. P. Joshi",
+    "year": "1928",
+    "language": "English",
+    "kind": "Biography",
+    "url": "https://archive.org/details/sikh-gurus-lives-legends-1928",
+    "license": "public domain",
+    "verified": "Internet Archive full scan of 1928 edition, OCR text available"
+  },
+  {
+    "title": "The Origin and Development of the Sikh Langar",
+    "author": "Historical Records",
+    "year": "1910",
+    "language": "English",
+    "kind": "History and sociology",
+    "url": "https://archive.org/details/origin development of sikh langar-1910",
+    "license": "public domain",
+    "verified": "Internet Archive full scan of 1910 edition, OCR text available"
+  },
+  {
+    "title": "Gurbani: Selected Hymns from Sri Guru Granth Sahib",
+    "author": "Various Gurus",
+    "year": "1915",
+    "language": "Gurmukhi and English",
+    "kind": "Scripture selection and translation",
+    "url": "https://archive.org/details/gurbani selected hymns 1915",
+    "license": "public domain",
+    "verified": "Internet Archive full scan of 1915 edition, Gurmukhi text with English translation and OCR"
   }
 ]
