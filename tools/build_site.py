@@ -153,7 +153,11 @@ def main():
 <div class="sec-label">Public domain, searchable · {nb}</div>{"".join(rows)}
 <div class="sec-label">Catalogue only</div>{rows2}''')
 
-    page("pothis.html", "Pothis · Taksal", ["Pothis"], '''<h1 class="page">Pothis</h1>
+    com = json.loads((D / "data/commons.json").read_text(encoding="utf-8"))
+    gal = "".join(f'<figure><a href="{c["file_page"]}"><img src="{c["thumb"]}" alt="{html.escape(c["title"])}" loading="lazy"></a>'
+                  f'<figcaption>{html.escape(c["title"].rsplit(".", 1)[0][:90])}<br><span>{html.escape(c["license"])}'
+                  f'{(" · " + html.escape(c["author"][:60])) if c["author"] else ""}</span></figcaption></figure>' for c in com)
+    page("pothis.html", "Pothis · Taksal", ["Pothis"], f'''<h1 class="page">Pothis</h1>
 <p class="note">Digitised hand-written birs, shown in Internet Archive's viewer. Both are marked public domain there.</p>
 <div class="sec-label">Sri Guru Granth Sahib, 1700s bir</div>
 <iframe class="viewer" src="https://archive.org/embed/puratan_guru_granth_sahib_1700s" title="1700s Guru Granth Sahib manuscript" loading="lazy" allowfullscreen></iframe>
@@ -161,6 +165,9 @@ def main():
 <div class="sec-label">Dasam Granth, Patna misal bir, 1765</div>
 <iframe class="viewer" src="https://archive.org/embed/patna_misal_dasam_1765" title="Patna misal Dasam Granth, 1765" loading="lazy" allowfullscreen></iframe>
 <p class="note"><a href="https://archive.org/details/patna_misal_dasam_1765">archive.org/details/patna_misal_dasam_1765</a></p>
+<div class="sec-label">Hukamnamas and Gurmukhi manuscripts · {len(com)} images</div>
+<p class="note">Openly licensed scans on Wikimedia Commons. Each links to its file page with the full credit and license.</p>
+<div class="gallery">{gal}</div>
 <div class="sec-label">More, link only</div>
 <p class="note">The <a href="https://www.panjabdigilib.org/">Panjab Digital Library</a> holds thousands of manuscripts. Its images are not ours to host, so Taksal links to it. Help transcribing is welcome: <a href="mailto:sehajrsinghs@gmail.com?subject=Taksal%20transcription">write to us</a>.</p>''')
 

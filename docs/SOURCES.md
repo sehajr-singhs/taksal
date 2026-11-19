@@ -1,12 +1,13 @@
 # Taksal sources
 
-Every item, its license and how it was checked is in `data/sources.json` (48 entries). Summary:
+Every item, its license and how it was checked is in `data/sources.json` (every entry). Summary:
 
 | What | Where from | License | Hosted how |
 |---|---|---|---|
 | 41 books on Sikh history and scripture, 1812 to 1927 | Internet Archive (identifiers in `docs/corpus/books.json`) | US public domain (published before 1931) | OCR text split by page, full-text search, every hit links to the page scan |
 | Guru Granth Sahib bir (1700s), Patna misal Dasam Granth bir (1765) | Internet Archive | Public Domain Mark | Internet Archive's own embedded viewer |
 | Gurbani (SGGS, Dasam Bani, Vaaran), hukamnama | BaniDB API v2, Khalis Foundation | used live | fetched in the browser, never copied |
+| 88 hukamnamas and Gurmukhi manuscript images | Wikimedia Commons (Category:Hukamnamas, Category:Gurmukhi manuscripts and others), `tools/fetch_commons.py` | public domain, CC0, CC BY or CC BY-SA, per file | thumbnails shown from Wikimedia with credit, on the Pothis page |
 | The coin | Rupee of Maharaja Ranjit Singh, Lahore mint, 1825-26, photo by Classical Numismatic Group on Wikimedia Commons | CC BY-SA 2.5 | ASCII derivative `docs/assets/coin-ascii.txt`, same license, made by `tools/coin_ascii.py` |
 | Sicques, Tigers, or Thieves; Mahan Kosh; Sikh Rehat Maryada | publishers / SGPC | in copyright or not openly licensed | catalogue entry only |
 
